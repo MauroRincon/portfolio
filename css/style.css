@@ -401,7 +401,7 @@ span {
 
 @media (max-width: 1425px) {
   header {
-    padding: 16px 3%;
+    padding: 14px 3%;
     transition: .3s;
   }
 
@@ -503,6 +503,14 @@ span {
 }
 
 @media (max-width: 540px) {
+  .service-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+  }
+
   .contact .action form input[type="email"] {
     width: 310px;
   }
