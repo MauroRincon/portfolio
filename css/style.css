@@ -401,7 +401,7 @@ span {
 
 @media (max-width: 1425px) {
   header {
-    padding: 14px 3%;
+    padding: 10px 3%;
     transition: .3s;
   }
 
