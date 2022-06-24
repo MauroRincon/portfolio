@@ -25,7 +25,7 @@ body {
 }
 
 header {
-  position: fixed;
+  position: fixed 0;
   width: 100%;
   top: 0;
   right: 0;
@@ -505,7 +505,7 @@ span {
 @media (max-width: 540px) {
   .service-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 2rem;
     align-items: center;
     text-align: center;
